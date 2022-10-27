@@ -7,4 +7,4 @@ Provisioners are used by terraform to define scripts and code that should be run
 
 ![VPC-Bastion-Host](Terraform%20VPC%20Bastion.svg)
 
-There is a placeholder file in the private key folder. This is used to hold the .pem file you would get from AWS access keys. Terraform provisioners would need this access to bootstrap some of the scripts used. Also, enusre the you change the name of the .pem used in the 
+There is a placeholder file in the private key folder. This is used to hold the .pem file you would get from AWS access keys. Terraform provisioners would need this access to bootstrap some of the scripts used. Also, enusre the you change the name of the .pem used in the Bastion-Provisioners file, in line 10 & 16
