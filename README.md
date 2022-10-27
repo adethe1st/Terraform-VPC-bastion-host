@@ -5,3 +5,4 @@ Terraform provisioners are used in building these resources. A reference is made
 
 Provisioners are used by terraform to define scripts and code that should be run once the resources are provisioned. They somewhat act as bootstrap data to run on the local or remote machines. An example would be defining environment variables aan copying filles from your local machine to the remote machine.
 
+![VPC-Bastion-Host](Terraform%20VPC%20Bastion.svg)
